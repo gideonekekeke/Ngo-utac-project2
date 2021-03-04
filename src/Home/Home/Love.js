@@ -1,7 +1,7 @@
 import React from "react";
 import love from "../videos/love.svg";
 
-const Love = ({ bg, text, img, bg1 }) => {
+const Love = ({ bg, text, img, bg1, bgg, wt, ht, mg }) => {
   return (
     <div
       style={{
@@ -14,7 +14,7 @@ const Love = ({ bg, text, img, bg1 }) => {
         <br />
         <div
           style={{
-            backgroundColor: bg,
+            backgroundColor: bgg,
             width: "80px",
             height: "80px",
             borderRadius: "50%",
@@ -29,10 +29,11 @@ const Love = ({ bg, text, img, bg1 }) => {
             src={img}
             alt="love"
             style={{
-              width: "50px",
-              height: "50px",
+              width: wt,
+              height: ht,
               borderRadius: "50%",
               objectFit: "contain",
+              marginRight: mg,
             }}
           />
         </div>

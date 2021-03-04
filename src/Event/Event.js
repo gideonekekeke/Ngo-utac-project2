@@ -49,7 +49,7 @@ function Event() {
     >
       <div className="container">
         <div className="body_name">
-          <div style={{ color: "#036e8b" }}>FEATURE EVENTS</div>
+          <div style={{ color: "#478E02" }}>FEATURE EVENTS</div>
           <div className="feeding">
             SEE HOW UTAC IS HELPING AND FEEEDING THE POOR
           </div>

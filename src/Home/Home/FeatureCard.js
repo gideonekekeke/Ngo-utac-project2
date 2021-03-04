@@ -16,31 +16,31 @@ const FeatureCard = () => {
       }}
     >
       <CardProps
-        header="Vetted Engineers"
-        detail="Spend less time interviewing and more time building by connecting with engineers we’ve already assessed."
+        header="Lorem Ipsum"
+        detail="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,"
         img={checkmark}
-        bg="#F9AF2F"
+        bg="#FFDE00"
       />
 
       <CardProps
-        header="Global Talent"
-        detail="Tap into a talent pool that spans multiple regions and multiple countries. The best engineers aren’t always in your backyard."
+        header="Lorem Ipsum"
+        detail="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, "
         img={global}
-        bg="#3863DF"
+        bg="#488D02"
       />
 
       <CardProps
-        header="Data-Driven Match"
-        detail="Identify the best fit engineers from our network through our proprietary data-driven, matching process."
+        header="Lorem Ipsum"
+        detail="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,"
         img={data}
-        bg="#49AAAF"
+        bg="#EF0303"
       />
 
       <CardProps
-        header="Hands-On Support"
-        detail="From helping with onboarding to sharing best practices, our success team is there every step of the way."
+        header="Lorem Ipsum"
+        detail="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,"
         img={hands}
-        bg="#1F2C46"
+        bg="black"
       />
     </div>
   );

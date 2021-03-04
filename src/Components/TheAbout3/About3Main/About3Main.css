@@ -1,19 +1,17 @@
 .About3MainGeneralDiv {
-  height: 556px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  background-color: #f3f5fb;
 }
 
 @media screen and (max-width: 600px) {
   .About3MainGeneralDiv {
-    margin-top: 150px;
   }
 }
 @media screen and (max-width: 380px) {
   .About3MainGeneralDiv {
-    margin-top: 350px;
   }
 }
 
