@@ -33,20 +33,20 @@ const MapHolder = () => {
           marginLeft: "10px",
         }}
       >
-        <h2>77,000+ Software Engineers</h2>
+        <h2>Lorem Ipsum is a dummy </h2>
         <p>
-          Who have come together to develop their skills, learn from each other,
-          and grow their careers
+          Lorem Ipsum has been the industry's standard dummy text ever since the
+          1500s,
         </p>
-        <h2>100+ Technical Skills</h2>
+        <h2>Lorem Ipsum is a dummy </h2>
         <p>
-          Skills include Ruby, Python, Go, Java, JavaScript, React-Native,
-          Postgres, MongoDB, and many more.
+          Lorem Ipsum has been the industry's standard dummy text ever since the
+          1500s,
         </p>
-        <h2>60+ Countries</h2>
+        <h2>Lorem Ipsum is a dummy </h2>
         <p>
-          With a geographic footprint that covers Africa, South America, Eastern
-          Europe, and many more.
+          Lorem Ipsum has been the industry's standard dummy text ever since the
+          1500s,
         </p>
       </div>
     </div>

@@ -38,9 +38,7 @@ const SuccessStory = () => {
         >
           {" "}
         </div>
-        <div>
-          Lantern Leverages Andela to Rebuild Entire Platform Under 3 Months
-        </div>
+        <div>Lorem Ipsum has been the industry's standard dummy text</div>
       </div>
       <div
         style={{
@@ -69,9 +67,7 @@ const SuccessStory = () => {
         >
           {" "}
         </div>
-        <div>
-          Vibes Uses Andela to Quickly Scale Team and Build Crucial Products
-        </div>
+        <div>Lorem Ipsum has been the industry's standard dummy text</div>
       </div>
     </div>
   );

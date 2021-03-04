@@ -1,4 +1,4 @@
-.TheAbout1GeneralDiv{
+.TheAbout1GeneralDiv {
   height: 250px;
   display: flex;
   flex-wrap: wrap;
@@ -8,15 +8,20 @@
   margin-bottom: 50px;
 }
 
-.TheAbout1SubGeneralDiv{
-  width: 525px;
+.TheAbout1SubGeneralDiv {
+  width: 60%;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }
 
-.About1TextDiv{
+@media screen and (max-width: 600px) {
+  .TheAbout1SubGeneralDiv {
+    width: 90%;
+  }
+}
+.About1TextDiv {
   color: #bc110d;
   font-size: 40px;
   text-align: center;
@@ -24,41 +29,41 @@
   flex-flow: column wrap;
 }
 
-.Str1{
+.Str1 {
   font-size: 40px;
   font-weight: lighter;
 }
-.Str2{
+.Str2 {
   font-size: 40px;
   font-weight: bold;
 }
-.Str3{
+.Str3 {
   font-size: 40px;
   font-weight: bold;
 }
-.Str4{
+.Str4 {
   font-size: 60px;
   font-weight: bold;
 }
 
-@media screen and (max-width: 768px){
-  .Str4{
+@media screen and (max-width: 768px) {
+  .Str4 {
     font-size: 40px;
   }
 
-  .Str2{
+  .Str2 {
     font-size: 30px;
   }
-  .Str3{
+  .Str3 {
     font-size: 30px;
   }
 
-  .Str1{
+  .Str1 {
     font-size: 25px;
   }
 }
 
-.Str5{
+.Str5 {
   font-size: 30px;
   font-weight: lighter;
 }

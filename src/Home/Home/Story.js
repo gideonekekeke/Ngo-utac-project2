@@ -1,6 +1,6 @@
 import React from "react";
-import alfred from "../videos/alfred.png";
-import fatima from "../videos/fatma.png";
+import alfred from "../videos/19.png";
+import fatima from "../videos/19.png";
 
 const Story = () => {
   return (
@@ -17,17 +17,18 @@ const Story = () => {
         style={{
           width: "300px",
           // backgroundColor: "red",
-          marginTop: "20px",
+          marginTop: "10px",
           display: "flex",
+          marginRight: "120px",
         }}
       >
         <div>
           <img
             src={fatima}
-            alt="fatima"
+            alt="name"
             style={{
-              width: "300px",
-              height: "350px",
+              width: "350px",
+              height: "450px",
               objectFit: "contain",
             }}
           />
@@ -40,13 +41,13 @@ const Story = () => {
             display: "flex",
             flexDirection: "column",
             fontSize: "12px",
-            right: "50px",
+            right: "100px",
             textAlign: "left",
           }}
         >
-          <h3>SOFTWARE DEVELOPER</h3>
-          <div>Fatma</div>
-          <p>5 years of experience Kenya</p>
+          <h3>FOUNDER (UTAC)</h3>
+          <div>NAME</div>
+          <p>Lorem Ipsum has been the industry's</p>
         </div>
       </div>
 
@@ -54,17 +55,18 @@ const Story = () => {
         style={{
           width: "300px",
           // backgroundColor: "blue",
-          marginTop: "20px",
+          marginTop: "10px",
           display: "flex",
+          marginRight: "120px",
         }}
       >
         <div>
           <img
             src={alfred}
-            alt="fatima"
+            alt="name"
             style={{
-              width: "280px",
-              height: "350px",
+              width: "350px",
+              height: "450px",
               objectFit: "contain",
             }}
           />
@@ -77,13 +79,13 @@ const Story = () => {
             display: "flex",
             flexDirection: "column",
             fontSize: "12px",
-            right: "40px",
+            right: "100px",
             textAlign: "left",
           }}
         >
-          <h3>FRONT-END ENGINEER</h3>
-          <div>Alfred</div>
-          <p>4 years of experience Kenya</p>
+          <h3>CO - FOUNDER</h3>
+          <div>name</div>
+          <p>Lorem Ipsum has been the industry's</p>
         </div>
       </div>
     </div>

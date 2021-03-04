@@ -1,7 +1,8 @@
 import { Button } from "antd";
 import React from "react";
 import img from "../videos/img.jpg";
-import hero from "../videos/hero.png";
+// import hero from "../videos/hero.png";
+import hero from "../videos/19.png";
 
 const HomeStart = () => {
   return (
@@ -13,6 +14,7 @@ const HomeStart = () => {
           width: "100%",
           justifyContent: "center",
           backgroundColor: "#F4F6FC",
+          marginTop: "85px",
         }}
       >
         <div
@@ -32,7 +34,8 @@ const HomeStart = () => {
               marginBottom: "20px",
             }}
           >
-            Build remote engineering teams with the world’s top talent.
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry.
           </div>
           <Button
             style={{
@@ -42,11 +45,14 @@ const HomeStart = () => {
               textTransform: "uppercase",
               width: "150px",
               marginLeft: "20px",
-              backgroundColor: "#3863DF",
-              color: "white",
+              backgroundColor: "#FFDE00",
+              color: "Black",
+              outline: "none",
+              border: "1px solid silver",
+              cursor: "pointer",
             }}
           >
-            Hire Talent
+            DONATE
           </Button>
         </div>
         <div

@@ -12,8 +12,8 @@ const Capture = () => {
           marginBottom: "40px",
         }}
       >
-        Get matched with vetted engineers from around the world and hire them
-        without the overhead.
+        Lorem Ipsum has been the industry's standard dummy text ever since the
+        1500s, when an unknown printer took a galley.
       </center>
     </div>
   );
